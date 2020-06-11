@@ -1,0 +1,77 @@
+@media (max-width: 850px) {
+    /* Home */
+    nav {
+        grid-template-columns: 170px 1fr;
+    }
+    nav .nav-logo-container{
+        margin-left: 0;
+    }
+    nav .profile-link{
+        margin-right: 10px;
+    }
+    .hero{
+    grid-template-rows: auto;
+    background-image: none;
+    gap: 10px;
+    grid-template-areas: ". ilustration ilustration ." 
+                        ". about about ." 
+                        ". description description .";
+    
+    }
+    .referencias {
+        display: block !important;
+        margin-top: 40px;
+        /* width: 80%; */
+
+    }
+    .home-body {
+        position: absolute;
+    }
+    .ilustration img {
+        width: 40%;
+    }
+    .hero-item{
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    /* Home */
+    /* Blogs */
+    .blogs-main-new {
+        /* grid-template-columns: 2fr; */
+        grid-template-rows: 3fr;
+    }
+    .blogs-main-new-img-container {
+        grid-row: 2;
+        grid-column: span 2;
+    }
+    .blogs-main-new-img-container img {
+        width: 100%;
+    }
+    .blogs-news-info-container {
+        grid-row: 3;
+        grid-column: span 2;
+    }
+    .blogs-post-container .post-container {
+        max-width: 80%;
+    }
+    /* Blogs */
+    /* contact */
+    .contact-main-container {
+        grid-template-columns: 60%;
+    }
+    /* contact */
+    /* sobre mi */
+    .presentation-section {
+        grid-template-columns: 1fr;
+    }
+    .presentation-section img {
+        width: 100%;
+    }
+    .proyect-section {
+        grid-template-columns: auto;
+        text-align: center;
+        margin: 20px 15%;
+    }
+    
+    /* sobre mi */
+}
